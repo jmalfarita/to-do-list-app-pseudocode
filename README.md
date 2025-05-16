@@ -71,7 +71,6 @@ message "Are you sure you want to exit?"
         IF answer is true THEN 
             DESTROY self.root 
         END IF
-
 END CLASS 
 IF __name__ == "__main__": 
     CREATE a main window, root = tk.Tk() 
